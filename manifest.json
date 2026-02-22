@@ -1,10 +1,11 @@
 {
-	"id": "obsidian-codeblock-paste",
+	"id": "codeblock-paste",
 	"name": "Code Block Paste",
 	"version": "1.0.0",
-	"minAppVersion": "0.15.0",
+	"minAppVersion": "1.11.7",
 	"description": "Paste clipboard content as an auto-detected code block.",
 	"author": "Conner1209",
 	"authorUrl": "https://github.com/Conner1209",
+	"fundingUrl": "https://buymeacoffee.com/connertheszar",
 	"isDesktopOnly": false
 }

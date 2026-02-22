@@ -1,4 +1,4 @@
-import { Editor, MarkdownView, Notice, Plugin } from "obsidian";
+import { Editor, Notice, Plugin } from "obsidian";
 import { CodeBlockPasteSettings, CodeBlockPasteSettingTab, DEFAULT_SETTINGS } from "./settings";
 
 // We use the "common" subset (~30 languages) to keep bundle size small

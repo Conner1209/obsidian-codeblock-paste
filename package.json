@@ -1,5 +1,5 @@
 {
-	"name": "obsidian-codeblock-paste",
+	"name": "codeblock-paste",
 	"version": "1.0.0",
 	"description": "Paste clipboard content as an auto-detected code block.",
 	"main": "main.js",
