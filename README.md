@@ -41,7 +41,7 @@ If nothing is selected, an empty code block is inserted with your cursor placed 
 
 ### Manual
 
-1. Download `main.js`, `manifest.json`, and `styles.css` from the [latest release](https://github.com/Conner1209/obsidian-codeblock-paste/releases).
+1. Download `main.js`, `manifest.json`, and `styles.css` from the [latest release](https://github.com/ConnerTheSzar/obsidian-codeblock-paste/releases).
 2. Create a folder: `<your-vault>/.obsidian/plugins/codeblock-paste/`
 3. Place the downloaded files in that folder.
 4. Reload Obsidian and enable the plugin in Settings → Community Plugins.

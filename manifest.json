@@ -4,8 +4,8 @@
 	"version": "1.0.0",
 	"minAppVersion": "1.11.7",
 	"description": "Paste clipboard content as an auto-detected code block.",
-	"author": "Conner1209",
-	"authorUrl": "https://github.com/Conner1209",
+	"author": "ConnerTheSzar",
+	"authorUrl": "https://github.com/ConnerTheSzar",
 	"fundingUrl": "https://buymeacoffee.com/connertheszar",
 	"isDesktopOnly": false
 }
