@@ -39,6 +39,14 @@ If nothing is selected, an empty code block is inserted with your cursor placed 
 
 ## Installation
 
+### Community Plugins (Coming Soon)
+
+1. Open **Settings → Community Plugins → Browse**.
+2. Search for **"Code Block Paste"**.
+3. Click **Install**, then **Enable**.
+
+> _This plugin is pending approval for the Obsidian Community Plugins directory._
+
 ### Manual
 
 1. Download `main.js`, `manifest.json`, and `styles.css` from the [latest release](https://github.com/ConnerTheSzar/obsidian-codeblock-paste/releases).
@@ -62,3 +70,13 @@ npm run build
 ## Credits
 
 Language detection powered by [highlight.js](https://highlightjs.org/).
+
+## Support
+
+If you find this plugin useful, consider supporting development:
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/connertheszar)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).

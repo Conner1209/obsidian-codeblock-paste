@@ -1,7 +1,11 @@
-import tseslint from 'typescript-eslint';
+import { fileURLToPath } from "node:url";
+import { dirname } from "node:path";
+import tseslint, { type ConfigWithExtends } from 'typescript-eslint';
 import obsidianmd from "eslint-plugin-obsidianmd";
 import globals from "globals";
 import { globalIgnores } from "eslint/config";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default tseslint.config(
 	{
@@ -16,12 +20,12 @@ export default tseslint.config(
 						'manifest.json'
 					]
 				},
-				tsconfigRootDir: import.meta.dirname,
+				tsconfigRootDir: __dirname,
 				extraFileExtensions: ['.json']
 			},
 		},
 	},
-	...obsidianmd.configs.recommended,
+	obsidianmd.configs!.recommended as ConfigWithExtends,
 	globalIgnores([
 		"node_modules",
 		"dist",
